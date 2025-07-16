@@ -81,7 +81,7 @@
 
   <script>
     window.onload = () => {
-      document.getElementById('dataForm').reset(); // Reset form on page load
+      document.getElementById('dataForm').reset(); 
     };
 
     document.getElementById('dataForm').addEventListener('submit', async function (e) {
@@ -106,7 +106,7 @@
 
         if (response.ok) {
           responseBox.textContent = "Submitted successfully!";
-          form.reset(); // Clear input values
+          form.reset(); 
         } else {
           responseBox.textContent = "Error: Submission failed.";
         }
